@@ -1,0 +1,14 @@
+Library:
+
+ <ArduinoJson.h>
+ <WiFi.h>
+ <AsyncTCP.h>
+ <ESPAsyncWebSrv.h>
+ <Eeprom24Cxx.h>
+ <WiFiMulti.h>
+ <WiFiClient.h>
+ <ArduinoWebsockets.h>
+ <ArduinoJson.h>
+ <Wire.h>
+ <Arduino.h>
+ <EEPROM.h>

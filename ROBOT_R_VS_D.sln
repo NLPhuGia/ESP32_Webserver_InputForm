@@ -5,9 +5,15 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ROBOT_ESP32_LAP", "..\ROBOT_ESP32_LAP\ROBOT_ESP32_LAP.vcxproj", "{3F0489D6-346A-44D3-A5FB-59E0493CE2F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sketch1", "Sketch1\Sketch1.vcxproj", "{03095A09-4331-49B5-AD3E-F4F03EA21FA8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PubSubClient-2.8", "..\..\..\..\..\New folder\Documents\Arduino\libraries\PubSubClient\PubSubClient-2.8.vcxitems", "{D94C5AA4-265E-4A17-94F7-E257AC87DCA2}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{7793B3D0-ED90-473F-ACAF-161820873711}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmotiBit_External_EEPROM-1.0.5+EmotiBit.0.0.1", "..\..\..\..\..\New folder\Documents\Arduino\libraries\EmotiBit_External_EEPROM\EmotiBit_External_EEPROM-1.0.5+EmotiBit.0.0.1.vcxitems", "{8AEAB92F-F824-4963-AE13-0F4D8394E4D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eeprom24Cxx-1.0.1", "..\..\..\..\..\New folder\Documents\Arduino\libraries\Eeprom24Cxx\Eeprom24Cxx-1.0.1.vcxitems", "{E02C1200-E25E-43AB-A698-70371DB90788}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0.0", "C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\EEPROM\EEPROM-2.0.0.vcxitems", "{B1DBE041-6589-4C6E-BF01-F3332A144CA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNSServer-2.0.0", "C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\DNSServer\DNSServer-2.0.0.vcxitems", "{3E0C6844-579F-4DDF-A547-8C43FACF7FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,51 +49,23 @@ Global
 		{3F0489D6-346A-44D3-A5FB-59E0493CE2F7}.Release|x64.Build.0 = Release|Win32
 		{3F0489D6-346A-44D3-A5FB-59E0493CE2F7}.Release|x86.ActiveCfg = Release|Win32
 		{3F0489D6-346A-44D3-A5FB-59E0493CE2F7}.Release|x86.Build.0 = Release|Win32
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|Any CPU.Build.0 = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|Any CPU.Deploy.0 = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM.ActiveCfg = Debug|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM.Build.0 = Debug|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM.Deploy.0 = Debug|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM64.Build.0 = Debug|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x64.ActiveCfg = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x64.Build.0 = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x64.Deploy.0 = Debug|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x86.ActiveCfg = Debug|x86
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x86.Build.0 = Debug|x86
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Debug|x86.Deploy.0 = Debug|x86
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|Any CPU.ActiveCfg = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|Any CPU.Build.0 = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|Any CPU.Deploy.0 = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM.ActiveCfg = Release|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM.Build.0 = Release|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM.Deploy.0 = Release|ARM
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM64.ActiveCfg = Release|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM64.Build.0 = Release|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|ARM64.Deploy.0 = Release|ARM64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x64.ActiveCfg = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x64.Build.0 = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x64.Deploy.0 = Release|x64
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x86.ActiveCfg = Release|x86
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x86.Build.0 = Release|x86
-		{03095A09-4331-49B5-AD3E-F4F03EA21FA8}.Release|x86.Deploy.0 = Release|x86
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Release|ARM.ActiveCfg = Release|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Release|x64.ActiveCfg = Release|Any CPU
-		{7793B3D0-ED90-473F-ACAF-161820873711}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21D1904C-1697-476E-A706-273445B75598}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\DNSServer\DNSServer-2.0.0.vcxitems*{3e0c6844-579f-4ddf-a547-8c43facf7fa2}*SharedItemsImports = 9
+		C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\DNSServer\DNSServer-2.0.0.vcxitems*{3f0489d6-346a-44d3-a5fb-59e0493ce2f7}*SharedItemsImports = 4
+		C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\EEPROM\EEPROM-2.0.0.vcxitems*{3f0489d6-346a-44d3-a5fb-59e0493ce2f7}*SharedItemsImports = 4
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\Eeprom24Cxx\Eeprom24Cxx-1.0.1.vcxitems*{3f0489d6-346a-44d3-a5fb-59e0493ce2f7}*SharedItemsImports = 4
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\EmotiBit_External_EEPROM\EmotiBit_External_EEPROM-1.0.5+EmotiBit.0.0.1.vcxitems*{3f0489d6-346a-44d3-a5fb-59e0493ce2f7}*SharedItemsImports = 4
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\PubSubClient\PubSubClient-2.8.vcxitems*{3f0489d6-346a-44d3-a5fb-59e0493ce2f7}*SharedItemsImports = 4
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\EmotiBit_External_EEPROM\EmotiBit_External_EEPROM-1.0.5+EmotiBit.0.0.1.vcxitems*{8aeab92f-f824-4963-ae13-0f4d8394e4d8}*SharedItemsImports = 9
+		C:\Users\ADMIN\AppData\Local\arduino15\packages\esp32\hardware\esp32\2.0.9\libraries\EEPROM\EEPROM-2.0.0.vcxitems*{b1dbe041-6589-4c6e-bf01-f3332a144ca5}*SharedItemsImports = 9
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\PubSubClient\PubSubClient-2.8.vcxitems*{d94c5aa4-265e-4a17-94f7-e257ac87dca2}*SharedItemsImports = 9
+		..\..\..\..\..\New folder\Documents\Arduino\libraries\Eeprom24Cxx\Eeprom24Cxx-1.0.1.vcxitems*{e02c1200-e25e-43ab-a698-70371db90788}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
